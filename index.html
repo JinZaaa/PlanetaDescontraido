@@ -37,7 +37,6 @@
   -->
 
  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg"> 
-
   
 
 </head>
@@ -151,8 +150,12 @@
       <!-- 
         - #HERO
       -->
-      <section class="player"
-      data-property="{videoURL:'https://www.youtube.com/watch?v=VecuMCk77yk',containment:'self', mute:true, showControls:false, opacity:1, loop:100,optimizeDisplay:true,quality:'hd1080',ratio:'4/3'}">
+
+      <section class="section hero has-bg-image" id="home" aria-labelledby="hero-label"
+        >
+        <video autoplay muted loop id="myVideo">
+          <source src="rain.mp4" type="video/mp4">
+        </video>
         <div class="container">
 
           <p class="section-subtitle has-before reveal-left" data-reveal>Welcome to the Planeta Descontraído</p>
